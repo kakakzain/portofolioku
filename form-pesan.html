@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Pemesanan Jasa</title>
+  <link rel="stylesheet" href="css/style-pesan.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Form Pemesanan Jasa</h2>
+    <form action="proses_pesan.php" method="POST">
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="telepon">Nomor Telepon</label>
+      <input type="tel" id="telepon" name="telepon" required />
+
+      <label for="jasa">Jenis Jasa</label>
+      <select id="jasa" name="jasa" required>
+        <option value="">-- Pilih Jasa --</option>
+        <option value="HTML">HTML</option>
+        <option value="PHP">PHP</option>
+        <option value="UI/UX">UI/UX</option>
+      </select>
+
+      <label for="pesan">Pesan/Keterangan</label>
+      <textarea id="pesan" name="pesan" required></textarea>
+
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="setuju" required />
+          Saya setuju dengan syarat dan ketentuan layanan
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Kirim Pesanan</button>
+      <button type="button" class="btn btn-secondary" onclick="window.location.href='index.html#layanan'">← Kembali</button>
+    </form>
+  </div>
+</body>
+</html>

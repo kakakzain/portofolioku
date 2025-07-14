@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolioku</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<section id="home"></section>
+<body >
+
+  <!-- Container -->
+  <div class="w-full bg-white px-4 md:px-8 py-12">
+
+    <!-- Header Nav -->
+    <header class="flex items-center justify-between mb-12">
+      <div class="flex items-center space-x-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="currentColor" viewBox="0 0 24 24"
+          stroke="none">
+          <path
+            d="M12 2a7 7 0 0 0-7 7c0 1.1.34 2.3 1 3.32V15a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2.59a4.5 4.5 0 1 0-2-7.91z" />
+        </svg>
+        <span class="font-bold text-xl text-gray-900 select-none">Portofolioku</span>
+      </div>
+      <nav class="space-x-8 text-gray-700 text-sm font-medium">
+        <a href="#" class="text-orange-600 font-semibold">Home</a>
+        <a href="#jasa">Jasa</a>
+        <a href="#cara">Cara Pesan</a>
+        <a href="#aboutme">About me</a>
+      </nav>
+      <a href="Admin/login.php"
+        class="ml-6 bg-orange-500 hover:bg-orange-600 transition-colors text-white font-semibold text-sm px-5 py-2 rounded-lg shadow-md">
+        Admin
+      </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="flex flex-col md:flex-row items-center justify-between mb-12 gap-12">
+      <div class="md:w-1/2 space-y-6">
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight">
+          I'am <span class="text-orange-500">Programer</span> for your business
+        </h1>
+        <p class="text-gray-600">
+          Ayo bekerja sama untuk menciptakan solusi digital terbaik. hubungi saya untuk mengenal lebih dalam dan mula bekerja sama.
+        </p>
+        <a href="#jasa"
+          class="bg-orange-500 hover:bg-orange-600 transition-colors py-3 px-7 rounded-md text-white font-semibold w-max shadow-md">
+          Mulai
+        </a>
+
+        <a href="#pesanan"
+          class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-gray-500 hover:text-orange-500 focus:outline-none">
+          <svg class="w-4 h-4 text-orange-500" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 16 16 12 12 8" />
+          </svg>
+          Pesan
+        </a>
+
+      </div>
+
+     <div class="md:w-1/2 flex justify-center">
+        <!-- Hero illustration - 2 people on bean bags with laptop and balloons -->
+        <img src="img/group-brainstorming-dark.png"
+          alt="Illustration of two people sitting relaxed on orange and brown bean bags, one using a laptop with balloon chat icons floating around them, in flat style with warm orange and brown tones"
+          class="max-w-full h-auto" onerror="this.onerror=null;this.src='https://placehold.co/400x300?text=Image+not+available';" />
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="jasa">
+
+      <h2 class="font-semibold text-center text-lg text-gray-700 mb-4">
+        Kami Berkomitmen pesanan sesuai <span class="text-orange-500">Permintaan</span>
+      </h2>
+      <p class="text-center text-sm text-gray-500 max-w-xl mx-auto mb-10">
+       Inilah Jasa Kami
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div onclick="window.location.href='form-pesan.html';"
+          class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow cursor-pointer flex flex-col items-start gap-4">
+          <div
+            class="bg-yellow-400 p-3 rounded-full inline-flex justify-center items-center drop-shadow-sm text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <line x1="12" y1="2" x2="12" y2="22" />
+            </svg>
+          </div>
+          <h3 class="font-semibold text-gray-900">HTML</h3>
+          <p class="text-gray-600 text-xs">
+           Jasa HTML adalah layanan pembuatan atau pengembangan halaman web menggunakan bahasa markup HTML untuk menampilkan informasi secara terstruktur dan menarik di internet.
+          </p>
+        </div>
+
+        <div onclick="window.location.href='form-pesan.html';"
+          class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow cursor-pointer flex flex-col items-start gap-4">
+          <div class="bg-green-400 p-3 rounded-full inline-flex justify-center items-center drop-shadow-sm text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M4 4h16v16H4z" />
+              </svg>
+          </div>
+          <h3 class="font-semibold text-gray-900">PHP</h3>
+          <p class="text-gray-600 text-xs">
+           Layanan PHP adalah solusi pengembangan web menyeluruh yang mendukung strategi pemasaran digital melalui website dinamis dan database terpadu untuk meningkatkan visibilitas dan kinerja merek Anda secara efektif.
+          </p>
+        </div>
+
+        <div onclick="window.location.href='form-pesan.html';"
+          class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow cursor-pointer flex flex-col items-start gap-4">
+          <div class="bg-purple-500 p-3 rounded-full inline-flex justify-center items-center drop-shadow-sm text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" viewBox="0 0 24 24">
+              <polygon points="12 2 19 21 12 17 5 21 12 2" />
+            </svg>
+          </div>
+          <h3 class="font-semibold text-gray-900">UI/UX</h3>
+          <p class="text-gray-600 text-xs">
+           Layanan UI/UX adalah jasa perancangan antarmuka dan pengalaman pengguna yang bertujuan menciptakan tampilan aplikasi atau situs web yang intuitif, menarik, dan mudah digunakan untuk meningkatkan kepuasan serta keterlibatan pengguna.
+          </p>
+        </div>
+
+        <div onclick="window.location.href='form-pesan.html';"
+          class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow cursor-pointer flex flex-col items-start gap-4">
+          <div class="bg-red-400 p-3 rounded-full inline-flex justify-center items-center drop-shadow-sm text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" viewBox="0 0 24 24">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+            </svg>
+          </div>
+          <h3 class="font-semibold text-gray-900">Coming Soon</h3>
+          <p class="text-gray-600 text-xs">
+           layanan digital terintegrasi yang akan memperkuat identitas merek Anda melalui desain UI/UX yang memikat, pengembangan PHP yang dinamis, dan struktur HTML yang optimal—kami siap membantu mewujudkan pengalaman web yang tak terlupakan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cara Pesan-->
+    <section id="cara" class="bg-orange-50 rounded-lg px-8 py-12 flex flex-col md:flex-row items-center gap-12 mb-14">
+      <div class="md:w-1/3 flex justify-center">
+        <img src="img/woman-laptop-sitting-dark.png"
+          alt="Man with black hair wearing glasses sitting on an orange modern armchair, reading on a tablet with a chat bubble icon above, in flat warm illustration style"
+          class="max-w-full h-auto" onerror="this.onerror=null;this.src='https://placehold.co/280x280?text=Image+not+available';" />
+      </div>
+      <div class="md:w-2/3 space-y-6">
+        <h2 class="text-2xl font-bold">
+          Penting sebelum memesan <span class="text-orange-500">Jasa!</span>
+        </h2>
+        <p class="text-gray-700 max-w-xl">
+         Mungkin kalian kebingungan cara pesannya. berikut cara yang dapat kalian ikuti:
+        </p>
+        <ul class="space-y-5">
+          <li class="flex items-start gap-4">
+            <div class="number-circle">1</div>
+            <div>
+              <span class="font-semibold">Contact us</span> – Jika kalian menekan contact maka kamu akan bisa menghubungi atau memesan jasa.
+            </div>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="number-circle">2</div>
+            <div>
+              <span class="font-semibold">Kami</span> – akan memberikan form ke nomor atau gmail yang diberikan jika kami siap menerima pesananmu.
+            </div>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="number-circle">3</div>
+            <div>
+              <span class="font-semibold">Pesan</span> – kamu bisa pesan jasa melalui tombol pesan di atas dan tombol mulai di bawah 
+            </div>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="number-circle">4</div>
+            <div>
+              <span class="font-semibold">Payment</span> – kami akan memberikan tagihan jika pesanan selesai.
+            </div>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="number-circle">5</div>
+            <div>
+              <span class="font-semibold">Ingat</span> – setelah lihat jasa dan ingin memesan, silahkan ketika 'Get Started' dibawah ini.
+            </div>
+          </li>
+        </ul>
+        <div class="flex gap-4">
+          <a href="form-pesan.html"
+            class="bg-orange-500 hover:bg-orange-600 transition-colors text-white font-semibold py-3 px-7 rounded-md shadow-md w-max">
+            Get Started
+          </a>
+        </div>
+      </div>
+    </section>
+
+  <!-- About me -->
+<section id="aboutme" class="flex flex-col gap-12 mb-14">
+  <h2 class="text-xl font-semibold text-center">
+    Personal <span class="text-orange-500">Highlights</span>
+  </h2>
+<!-- kotak aboutme -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 py-6 bg-gray-50">
+
+  <!-- Card: Kampus -->
+  <div class="w-full h-[360px] bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition duration-300">
+    <img src="img/kampus.jpg" alt="Foto Kampus" class="w-full h-[180px] object-cover" />
+    <div class="p-4 space-y-2">
+      <h3 class="text-lg font-semibold text-gray-800">Campus Time</h3>
+      <p class="text-sm text-gray-600">
+        Aktif sebagai mahasiswa di Universitas Annuqayah, berkontribusi dalam inovasi akademik berbasis teknologi.
+      </p>
+    </div>
+  </div>
+
+  <!-- Card: Healing -->
+  <div class="w-full h-[360px] bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition duration-300">
+    <img src="img/aku.jpg" alt="Pesantren" class="w-full h-[180px] object-cover" />
+    <div class="p-4 space-y-2">
+      <h3 class="text-lg font-semibold text-gray-800">Healing</h3>
+      <p class="text-sm text-gray-600">
+       Menemukan kedamaian di tengah rutinitas, menyelaraskan jiwa dan logika dalam perjalanan santri yang penuh makna.
+      </p>
+    </div>
+  </div>
+
+  <!-- Card: Coding -->
+  <div class="w-full h-[360px] bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition duration-300">
+    <img src="img/kerja.jpg" alt="Coding" class="w-full h-[180px] object-cover" />
+    <div class="p-4 space-y-2">
+      <h3 class="text-lg font-semibold text-gray-800">Kerja</h3>
+      <p class="text-sm text-gray-600">
+        Menjemput produktivitas di kota sejuk—kerja sambil recharge di bawah langit Malang.
+      </p>
+    </div>
+  </div>
+
+  <!-- Card projek -->
+  <div class="w-full h-[360px] bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition duration-300">
+    <img src="img/IMG-20250518-WA0045.jpg" alt="Tambahan" class="w-full h-[180px] object-cover" />
+    <div class="p-4 space-y-2">
+      <h3 class="text-lg font-semibold text-gray-800">Project</h3>
+      <p class="text-sm text-gray-600">
+        Di balik layar proyek coding, terselip drama dan tawa—karena yang namanya dikerjain itu bagian dari proses.
+
+      </p>
+      </div>
+  </div>
+
+</div>
+</section>
+
+    <!-- Call to Action Bar -->
+    <section id="pesanan"
+      class="bg-orange-500 rounded-lg flex flex-col md:flex-row items-center justify-between px-8 py-6 gap-6 md:gap-0 mb-6 text-white">
+      <h4 class="text-lg font-semibold tracking-wide">
+        Siap memesan jasa kami?
+      </h4>
+      <a href="form-pesan.html"
+        class="bg-white text-orange-500 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors no-underline shadow-md">
+        Pesan
+      </a>
+    </section>
+
+    <!-- Footer -->
+   <header class="bg-white border-b border-gray-200 py-4">
+  <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
+
+    <!-- Logo dan Judul -->
+    <div class="flex items-center gap-2 font-semibold text-gray-900 text-lg">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2a7 7 0 0 0-7 7c0 1.1.34 2.3 1 3.32V15a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2.59a4.5 4.5 0 1 0-2-7.91z" />
+      </svg>
+      Portofolioku
+    </div>
+
+    <!-- Menu Navigasi -->
+    <nav class="flex gap-6 text-sm text-gray-700">
+      <a href="#home" class="hover:text-orange-500 transition-colors">home</a>
+      <a href="#aboutme" class="hover:text-orange-500 transition-colors">About me</a>
+      <a href="#cara" class="hover:text-orange-500 transition-colors">Cara Pesan</a>
+      <a href="form-pesan.html" class="hover:text-orange-500 transition-colors">Pesan</a>
+    </nav>
+
+    <div class="flex gap-4 text-gray-600">
+  <!-- WhatsApp -->
+  <a href="https://wa.me/+6283164004093" target="_blank" aria-label="WhatsApp" class="hover:text-green-500 transition-colors">
+   <img src="icon/whatsapp.png" alt="WhatsApp Icon" width="24" height="24">
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://instagram.com/aku.zennn" target="_blank" aria-label="Instagram" class="hover:text-orange-500 transition-colors">
+    <img src="icon/instagram.png" alt="WhatsApp Icon" width="24" height="24">
+  </a>
+
+  <!-- Twitter -->
+  <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter" class="hover:text-sky-500 transition-colors">
+    <img src="icon/twitter.png" WhatsApp Icon width="24" height="24">
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub" class="hover:text-gray-900 transition-colors">
+    <img src="icon/github.png" alt="WhatsApp Icon" width="24" height="24">
+  </a>
+</div>
+
+  </div>
+</header>
+
+  </div>
+
+</body>
+
+</html>
+

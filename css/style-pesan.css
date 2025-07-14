@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(to right, #f97316, #3b82f6);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #3b82f6;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.checkbox {
+  margin-bottom: 20px;
+}
+
+.checkbox input {
+  margin-right: 10px;
+}
+
+.btn {
+  width: 48%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #f97316;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #3b82f6;
+  color: white;
+  float: right;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btn-secondary {
+    float: none;
+  }
+}

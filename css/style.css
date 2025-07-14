@@ -1,0 +1,50 @@
+    /* Custom styling for bullet numbers in solutions */
+    .number-circle {
+      width: 28px;
+      height: 28px;
+      border-radius: 9999px;
+      background-color: #f97316; /* orange-500 */
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+  
+    html {
+    scroll-behavior: smooth;
+     }
+
+    /* Custom scrollbar for testimonial carousel */
+    #testimonial-carousel::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    #testimonial-carousel::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    #testimonial-carousel::-webkit-scrollbar-thumb {
+      background-color: #f97316;
+      border-radius: 3px;
+    }
+
+    /* Bottom wave shape for footer */
+    .footer-wave {
+      clip-path: ellipse(100% 40% at 50% 60%);
+      background-color: #fb923c; /* orange-400 */
+      height: 70px;
+      margin-top: 40px;
+    }
+
+    /* Hover for navigation links */
+    nav a {
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f97316;
+    }
+ 
